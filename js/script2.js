@@ -15,13 +15,11 @@ const array2 = ['hola', 'hello'];
 
 
 while (array1.length != array2.length){
-
-    insert = Math.ceil(Math.random());
-
+    
     if (array1.length < array2.length){
-        array1.push(insert);
-    } else if (array1.length < array2.length) {
-        array2.push(insert);
+        array1.push(Math.ceil(Math.random() *10 ));
+    } else {
+        array2.push(Math.ceil(Math.random() *10));
     }
 
 }
