@@ -20,7 +20,7 @@ while (array1.length != array2.length){
 
     if (array1.length < array2.length){
         array1.push(insert);
-    } else {
+    } else if (array1.length < array2.length) {
         array2.push(insert);
     }
 
